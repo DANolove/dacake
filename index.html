@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Da, Cake! — авторские торты во Владивостоке</title>
+<meta name="description" content="Авторские торты на заказ во Владивостоке. Свадебные, детские, муссовые — натуральные ингредиенты, ручная работа. +7 908 460-00-60">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍰</text></svg>">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="logo">Da, <em>Cake!</em></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#catalog">Каталог</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#how">Как заказать</a></li>
+      <li><a href="#reviews">Отзывы</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+    <a href="#order" class="nav-cta">Заказать торт</a>
+    <button class="nav-burger" id="nav-burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-badge"><i></i> Принимаем заказы во Владивостоке</div>
+      <h1>Торты, которые <em>невозможно</em> забыть</h1>
+      <p class="hero-desc">Авторские десерты ручной работы: от свадебного шедевра до капкейка для души. Натуральные ингредиенты, честный вкус, красота в каждой детали.</p>
+      <div class="hero-actions">
+        <a href="#order" class="btn btn-primary">Заказать торт →</a>
+        <a href="#catalog" class="btn btn-ghost">Смотреть каталог</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>7+</b><span>лет опыта</span></div>
+        <div><b>1200+</b><span>тортов</span></div>
+        <div><b>100%</b><span>натурально</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="frame"><img src="assets-webp/cake_10.webp" alt="Авторский торт" loading="eager"></div>
+      <div class="card-float"><span style="font-size:26px">🍓</span><div><b>Свежие ягоды</b><span>только в сезон</span></div></div>
+      <div class="stamp">сделано с любовью</div>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee-track">
+    <span>Свадебные</span><span>✦</span><span>Детские</span><span>✦</span><span>Муссовые</span><span>✦</span><span>Бенто</span><span>✦</span><span>Порционные</span><span>✦</span><span>На заказ</span><span>✦</span><span>С печатью</span><span>✦</span><span>Корпоративные</span><span>✦</span>
+  </div>
+</div>
+
+<section class="section trust" id="why">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item reveal"><span class="trust-ico">🍰</span><h3>Авторские рецепты</h3><p>Уникальные торты от нашего кондитера — не масс-маркет, а вкус, который запоминается</p></div>
+      <div class="trust-item reveal reveal-delay-1"><span class="trust-ico">🌿</span><h3>Натуральные ингредиенты</h3><p>Сливочное масло, бельгийский шоколад, свежие ягоды — без заменителей и пальмы</p></div>
+      <div class="trust-item reveal reveal-delay-2"><span class="trust-ico">👩‍🍳</span><h3>Дегустация перед заказом</h3><p>Приходите в студию — пробуйте начинки и выбирайте идеальный вкус</p></div>
+      <div class="trust-item reveal reveal-delay-3"><span class="trust-ico">📦</span><h3>Аккуратная доставка</h3><p>Своя курьерская служба: торт доедет целым, красивым и точно в срок</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section catalog" id="catalog">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Каталог</span>
+      <h2 class="section-title">Что мы печём</h2>
+      <p class="section-sub">17 направлений — от классики до смелых экспериментов. Любой торт можно адаптировать под ваш вкус.</p>
+    </div>
+    <div class="tabs reveal" id="tabs">
+      <button class="tab active" data-f="all">Все</button>
+      <button class="tab" data-f="wed">Свадебные</button>
+      <button class="tab" data-f="kids">Детские</button>
+      <button class="tab" data-f="men">Мужские</button>
+      <button class="tab" data-f="women">Женские</button>
+      <button class="tab" data-f="corp">Корпоративные</button>
+      <button class="tab" data-f="hit">Хиты</button>
+    </div>
+    <div class="cat-grid" id="cat-grid">
+
+      <article class="cat-card reveal" data-cat="wed hit">
+        <div class="img-wrap"><img src="assets-webp/cake_01.webp" alt="Свадебные торты" loading="eager"><span class="tag">Хит</span></div>
+        <div class="body"><h3>Свадебные торты</h3><p>Многоярусные шедевры, которые станут центром вашего торжества. Дегустация обязательна.</p><div class="price">от 4 500 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="kids hit">
+        <div class="img-wrap"><img src="assets-webp/cake_06.webp" alt="Детские торты" loading="eager"><span class="tag">Хит</span></div>
+        <div class="body"><h3>Детские торты</h3><p>Любимые герои, яркие цвета, безопасные красители и начинка, от которой дети в восторге.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-2" data-cat="hit">
+        <div class="img-wrap"><img src="assets-webp/cake_03.webp" alt="Муссовые десерты" loading="eager"><span class="tag">Хит</span></div>
+        <div class="body"><h3>Муссовые десерты</h3><p>Воздушные муссы с зеркальной глазурью: манго-маракуйя, малина-фисташка, шоколад-апельсин.</p><div class="price">от 2 800 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal" data-cat="wed">
+        <div class="img-wrap"><img src="assets-webp/cake_08.webp" alt="Тематические торты" loading="eager"></div>
+        <div class="body"><h3>Тематические торты</h3><p>Под любой праздник и повод — от минимализма до сложного декора ручной работы.</p><div class="price">от 2 500 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="wed">
+        <div class="img-wrap"><img src="assets-webp/cake_09.webp" alt="Классическое оформление" loading="eager"></div>
+        <div class="body"><h3>Классическое оформление</h3><p>Элегантные торты с кремовыми текстурами, живыми цветами и идеальными линиями.</p><div class="price">от 2 400 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-2" data-cat="hit">
+        <div class="img-wrap"><img src="assets-webp/cake_10.webp" alt="Бенто-торты" loading="eager"><span class="tag">Хит</span></div>
+        <div class="body"><h3>Бенто-торты</h3><p>Компактные тортики с персональной надписью — тренд, который всегда в тему.</p><div class="price">от 1 100 ₽/шт</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal" data-cat="kids">
+        <div class="img-wrap"><img src="assets-webp/cake_11.webp" alt="Торты малышам" loading="eager"></div>
+        <div class="body"><h3>Торты малышам</h3><p>Нежные, безопасные, с игрушечным декором и начинками, которые можно детям.</p><div class="price">от 2 000 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="kids">
+        <div class="img-wrap"><img src="assets-webp/cake_12.webp" alt="Торты мальчикам" loading="eager"></div>
+        <div class="body"><h3>Торты мальчикам</h3><p>Супергерои, машинки, динозавры, космос — всё, от чего глаза горят.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-2" data-cat="kids">
+        <div class="img-wrap"><img src="assets-webp/cake_13.webp" alt="Торты девочкам" loading="eager"></div>
+        <div class="body"><h3>Торты девочкам</h3><p>Принцессы, единороги, куклы — мечты, воплощённые в десерте.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal" data-cat="men">
+        <div class="img-wrap"><img src="assets-webp/cake_14.webp" alt="Мужские торты" loading="eager"></div>
+        <div class="body"><h3>Мужские торты</h3><p>Строгие, брутальные, с юмором — от «футбол» до «рыбалка» и гаджетов.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="women">
+        <div class="img-wrap"><img src="assets-webp/cake_15.webp" alt="Женские торты" loading="eager"></div>
+        <div class="body"><h3>Женские торты</h3><p>Нежные, цветочные, изящные — для самой важной женщины в вашей жизни.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-2" data-cat="corp">
+        <div class="img-wrap"><img src="assets-webp/cake_16.webp" alt="Корпоративные" loading="eager"></div>
+        <div class="body"><h3>Корпоративные</h3><p>Торты с логотипом и фирменным стилем для мероприятий и презентаций.</p><div class="price">от 3 000 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal" data-cat="wed women">
+        <div class="img-wrap"><img src="assets-webp/cake_17.webp" alt="Торты мамочкам" loading="eager"></div>
+        <div class="body"><h3>Торты мамочкам</h3><p>Цветы, нежность и слова благодарности — в самом вкусном исполнении.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="women">
+        <div class="img-wrap"><img src="assets-webp/cake_18.webp" alt="Торты любимым" loading="eager"></div>
+        <div class="body"><h3>Торты любимым</h3><p>Признание в любви на языке десертов: сердца, надписи, любимые вкусы.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-2" data-cat="corp">
+        <div class="img-wrap"><img src="assets-webp/cake_19.webp" alt="Торты подросткам" loading="eager"></div>
+        <div class="body"><h3>Торты подросткам</h3><p>Современный стиль: градиенты, логотипы брендов, смелые решения.</p><div class="price">от 2 200 ₽/кг</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal" data-cat="hit">
+        <div class="img-wrap"><img src="assets-webp/cake_20.webp" alt="Меренговый рулет" loading="eager"><span class="tag">Новинка</span></div>
+        <div class="body"><h3>Меренговый рулет</h3><p>Хрустящая меренга, нежный крем, свежие ягоды — десерт, который просят повторить.</p><div class="price">от 1 800 ₽/шт</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+      <article class="cat-card reveal reveal-delay-1" data-cat="corp">
+        <div class="img-wrap"><img src="assets-webp/cake_21.webp" alt="Порционные десерты" loading="eager"></div>
+        <div class="body"><h3>Порционные десерты</h3><p>Капкейки, тарты, пирожные для фуршетов и кофе-брейков. От 12 штук.</p><div class="price">от 180 ₽/шт</div><a href="#order" class="link">Заказать</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section story" id="about">
+  <div class="container story-grid">
+    <div class="story-visual reveal">
+      <div class="frame"><img src="assets-webp/cake_22.webp" alt="Наша кондитерская" loading="lazy"></div>
+      <div class="frame2"><img src="assets-webp/cake_23.webp" alt="Процесс создания" loading="lazy"></div>
+    </div>
+    <div class="story-text reveal reveal-delay-1">
+      <span class="eyebrow">О нас</span>
+      <h2 class="section-title">История, которая началась с дня рождения</h2>
+      <p>Всё началось с торта для дочки на её первый день рождения. Соседи просили «такой же», друзья — «для себя». Так домашняя кухня стала кондитерской студией.</p>
+      <p>Сегодня мы печём торты для свадеб, юбилеев и корпоративов по всему Владивостоку — и каждый раз вкладываем в работу ту же любовь, что и в самый первый торт.</p>
+      <div class="big">«Торт — это не просто десерт. Это эмоция, которую вы дарите. Мы делаем так, чтобы её запомнили».</div>
+      <div class="story-stats">
+        <div><b>2019</b><span>год основания</span></div>
+        <div><b>1200+</b><span>довольных клиентов</span></div>
+        <div><b>4.9★</b><span>средняя оценка</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section how" id="how">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Просто</span>
+      <h2 class="section-title">Как заказать торт</h2>
+      <p class="section-sub">Четыре шага — и ваш идеальный торт уже в духовке.</p>
+    </div>
+    <div class="steps-grid">
+      <div class="step reveal"><span class="ico">💬</span><h3>Оставьте заявку</h3><p>Заполните форму или напишите нам в WhatsApp/Telegram — это займёт 2 минуты.</p></div>
+      <div class="step reveal reveal-delay-1"><span class="ico">🍰</span><h3>Обсудим детали</h3><p>Перезвоним, уточним повод, количество гостей, вкусы и бюджет. Поможем выбрать.</p></div>
+      <div class="step reveal reveal-delay-2"><span class="ico">👩‍🍳</span><h3>Печём и декорируем</h3><p>Готовим торт в согласованный день. Для свадеб и больших тортов — дегустация заранее.</p></div>
+      <div class="step reveal"><span class="ico">🎉</span><h3>Забираете или ждёте доставку</h3><p>Самовывоз из студии или аккуратная доставка по Владивостоку в нужное время.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Отзывы</span>
+      <h2 class="section-title">Что говорят наши клиенты</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <div class="stars">★★★★★</div>
+        <p>Заказывали свадебный торт — это было лучшее, что мы пробовали! Двухъярусный, с живыми цветами. Гости до сих пор вспоминают. Спасибо огромное!</p>
+        <div class="who"><div class="ava">А</div><div><b>Анна</b><span>свадьба, август</span></div></div>
+      </div>
+      <div class="testi reveal reveal-delay-1">
+        <div class="stars">★★★★★</div>
+        <p>Сын просил торт с Человеком-пауком. Думала, будет просто картинка — а получился настоящий шедевр! Начинку выбрали на дегустации, не пожалели.</p>
+        <div class="who"><div class="ava">М</div><div><b>Марина</b><span>день рождения</span></div></div>
+      </div>
+      <div class="testi reveal reveal-delay-2">
+        <div class="stars">★★★★★</div>
+        <p>Заказываем корпоративные торты с логотипом уже второй год. Всегда вовремя, всегда красиво, и вкусно настолько, что разлетаются за час!</p>
+        <div class="who"><div class="ava">Д</div><div><b>Дмитрий</b><span>HR-директор</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section ig" id="instagram">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Instagram</span>
+      <h2 class="section-title">Свежие работы — в нашем профиле</h2>
+      <p class="section-sub">Ещё больше тортов, историй и вдохновения: <a href="https://instagram.com/dacake_vl" style="color:var(--gold);font-weight:700">@dacake_vl</a></p>
+    </div>
+    <div class="ig-grid reveal">
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_24.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_25.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_26.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_27.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_28.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+      <a href="https://instagram.com/dacake_vl" class="ig-item" target="_blank" rel="noopener"><img src="assets-webp/cake_29.webp" alt="Торт в Instagram" loading="lazy"><span class="ig-ov">@dacake_vl</span></a>
+    </div>
+  </div>
+</section>
+
+<section class="section order" id="order">
+  <div class="container order-grid">
+    <div class="reveal">
+      <span class="eyebrow">Оформить заказ</span>
+      <h2>Закажите торт за 2 минуты</h2>
+      <p class="section-sub">Заполните форму — мы свяжемся с вами, обсудим начинку и оформление. Предоплата не нужна.</p>
+      <ul class="order-steps">
+        <li><b>1</b> Заполните форму ниже</li>
+        <li><b>2</b> Мы перезвоним в течение 15 минут</li>
+        <li><b>3</b> Обсуждаем вкус, вес и декор</li>
+        <li><b>4</b> Забираете торт или ждёте доставку</li>
+      </ul>
+    </div>
+    <form class="order-form reveal reveal-delay-1" id="order-form" novalidate>
+      <label>Ваше имя
+        <input type="text" name="name" placeholder="Как к вам обращаться?" required>
+      </label>
+      <label>Телефон
+        <input type="tel" name="phone" placeholder="+7 ___ ___-__-__" required>
+      </label>
+      <label>Какой торт?
+        <select name="category">
+          <option value="">Выберите категорию</option>
+          <option>Свадебные</option><option>Детские</option><option>Мужские</option><option>Женские</option>
+          <option>Корпоративные</option><option>Порционные</option><option>Муссовые</option><option>Меренговый рулет</option>
+          <option>Подросткам</option><option>Мальчикам</option><option>Девочкам</option><option>Малышам</option>
+          <option>Мамочкам</option><option>Любимым</option><option>Мужчинам</option><option>С печатью</option><option>Хиты</option>
+        </select>
+      </label>
+      <label>Дата торжества
+        <input type="date" name="date">
+      </label>
+      <label>Комментарий
+        <textarea name="comment" rows="3" placeholder="Пожелания: вес, начинка, дизайн..."></textarea>
+      </label>
+      <button type="submit" class="btn btn-block">🎂 Отправить заказ</button>
+      <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. Заявка уйдёт нам в WhatsApp — ответим быстро.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section contacts" id="contacts">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <span class="eyebrow">Контакты</span>
+      <h2 class="section-title">Мы всегда на связи</h2>
+      <p class="section-sub">Поможем с заказом в любое время — от идеи до готового десерта.</p>
+      <div class="contact-card"><div class="ic">📞</div><div><b>Телефон</b><a class="phone" href="tel:+79084600060">+7 908 460-00-60</a></div></div>
+      <div class="contact-card"><div class="ic">📍</div><div><b>Адрес</b><span>Владивосток, ЖК Горизонт, ул. Баляева, 49, первая башня</span></div></div>
+      <div class="contact-card"><div class="ic">⏰</div><div><b>Режим</b><span>По предварительному заказу — обсудим удобное время</span></div></div>
+      <div class="contact-chat">
+        <a class="chat-btn chat-wa" href="https://wa.me/79084600060" target="_blank" rel="noopener">💬 WhatsApp</a>
+        <a class="chat-btn chat-tg" href="https://t.me/dacake_vl" target="_blank" rel="noopener">✈️ Telegram</a>
+      </div>
+    </div>
+    <div class="map-frame reveal reveal-delay-1">
+      <div>📍 Владивосток,<br>ул. Баляева, 49<br><br><a href="https://yandex.ru/maps/?text=Владивосток, Баляева 49" target="_blank" rel="noopener" style="color:var(--gold);font-weight:700">Открыть в картах →</a></div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="logo">Da, <em>Cake!</em></a>
+        <p>Авторские торты ручной работы во Владивостоке. Натуральные ингредиенты, честный вкус и красота в каждой детали.</p>
+      </div>
+      <div>
+        <h4>Меню</h4>
+        <ul>
+          <li><a href="#catalog">Каталог</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#how">Как заказать</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Популярное</h4>
+        <ul>
+          <li><a href="#catalog">Свадебные торты</a></li>
+          <li><a href="#catalog">Детские торты</a></li>
+          <li><a href="#catalog">Бенто-торты</a></li>
+          <li><a href="#catalog">Меренговый рулет</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Контакты</h4>
+        <ul>
+          <li><a href="tel:+79084600060">+7 908 460-00-60</a></li>
+          <li><a href="https://wa.me/79084600060" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://t.me/dacake_vl" target="_blank" rel="noopener">Telegram</a></li>
+          <li><a href="https://instagram.com/dacake_vl" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Da, Cake! — авторские торты во Владивостоке</span>
+      <span>Сделано с 🍰 и любовью</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/79084600060" class="wa-float" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">💬</a>
+
+<div class="lightbox" id="lightbox">
+  <button class="lb-close" onclick="document.getElementById('lightbox').classList.remove('open')">&times;</button>
+  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Фото работ" id="lb-img">
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  const burger = document.getElementById('nav-burger');
+  const links = document.getElementById('nav-links');
+  burger.addEventListener('click', () => {
+    burger.classList.toggle('active');
+    links.classList.toggle('open');
+  });
+  links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    burger.classList.remove('active'); links.classList.remove('open');
+  }));
+
+  const tabs = document.querySelectorAll('#tabs .tab');
+  const cards = document.querySelectorAll('.cat-card');
+  tabs.forEach(tab => tab.addEventListener('click', () => {
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const f = tab.dataset.f;
+    cards.forEach(c => {
+      c.style.display = (f === 'all' || c.dataset.cat.includes(f)) ? '' : 'none';
+    });
+  }));
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); } });
+  }, {threshold: 0.1});
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lb-img');
+  const gal = document.querySelectorAll('.cat-card .img-wrap img');
+  const galSrcs = Array.from(gal).map(i => i.src);
+  gal.forEach((img, i) => img.addEventListener('click', () => {
+    lbImg.src = galSrcs[i]; lb.classList.add('open');
+  }));
+  lb.addEventListener('click', e => { if (e.target === lb) lb.classList.remove('open'); });
+
+  const orderForm = document.getElementById('order-form');
+  if (orderForm) {
+    orderForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const name = this.name.value.trim();
+      const phone = this.phone.value.trim();
+      if (!name || !phone) { alert('Пожалуйста, укажите имя и телефон'); return; }
+      const cat = this.category.value || 'Не выбрано';
+      const date = this.date.value || 'Не указана';
+      const comment = this.comment.value.trim() || '—';
+      const text = encodeURIComponent('Здравствуйте! Заказ с сайта Da, Cake!\nИмя: ' + name + '\nТелефон: ' + phone + '\nКатегория: ' + cat + '\nДата: ' + date + '\nКомментарий: ' + comment);
+      window.open('https://wa.me/79084600060?text=' + text, '_blank');
+      this.reset();
+      const btn = this.querySelector('button[type=submit]');
+      btn.textContent = '✅ Заявка открыта в WhatsApp';
+      btn.classList.add('btn-success');
+      setTimeout(() => { btn.textContent = '🎂 Отправить заказ'; btn.classList.remove('btn-success'); }, 4000);
+    });
+  }
+
+  const mt = document.getElementById('marquee-track');
+  if (mt) mt.innerHTML += mt.innerHTML;
+});
+</script>
+
+</body>
+</html>
