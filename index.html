@@ -5,15 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Da, Cake! — авторские торты во Владивостоке</title>
 <meta name="description" content="Авторские торты на заказ во Владивостоке. Свадебные, детские, муссовые — натуральные ингредиенты, ручная работа. +7 908 460-00-60">
+<meta name="theme-color" content="#F6F0E6">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Da, Cake! — авторские торты во Владивостоке">
+<meta property="og:description" content="Торты ручной работы, которые невозможно забыть. Свадебные, детские, муссовые, бенто. Натуральные ингредиенты, дегустация перед заказом.">
+<meta property="og:image" content="assets-webp/cake_10.webp">
+<meta property="og:locale" content="ru_RU">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍰</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Da, Cake!",
+  "description": "Авторские торты ручной работы во Владивостоке",
+  "telephone": "+79084600060",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ул. Баляева, 49, ЖК Горизонт",
+    "addressLocality": "Владивосток",
+    "addressCountry": "RU"
+  },
+  "sameAs": ["https://instagram.com/dacake_vl", "https://t.me/dacake_vl"],
+  "priceRange": "₽₽"
+}
+</script>
 </head>
 <body>
+<a class="skip-link" href="#catalog">К содержанию</a>
 
-<nav class="nav" id="nav">
+<header class="site-header">
+<nav class="nav" id="nav" aria-label="Основная навигация">
   <div class="container nav-inner">
     <a href="#top" class="logo">Da, <em>Cake!</em></a>
     <ul class="nav-links" id="nav-links">
@@ -24,13 +49,16 @@
       <li><a href="#contacts">Контакты</a></li>
     </ul>
     <a href="#order" class="nav-cta">Заказать торт</a>
-    <button class="nav-burger" id="nav-burger" aria-label="Меню"><span></span><span></span><span></span></button>
+    <button class="nav-burger" id="nav-burger" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
   </div>
 </nav>
+</header>
+
+<main>
 
 <header class="hero" id="top">
   <div class="container hero-grid">
-    <div>
+    <div class="hero-copy">
       <div class="hero-badge"><i></i> Принимаем заказы во Владивостоке</div>
       <h1>Торты, которые <em>невозможно</em> забыть</h1>
       <p class="hero-desc">Авторские десерты ручной работы: от свадебного шедевра до капкейка для души. Натуральные ингредиенты, честный вкус, красота в каждой детали.</p>
@@ -46,7 +74,7 @@
     </div>
     <div class="hero-visual">
       <div class="frame"><img src="assets-webp/cake_10.webp" alt="Авторский торт" loading="eager"></div>
-      <div class="card-float"><span style="font-size:24px;filter:grayscale(1) sepia(1) saturate(3) hue-rotate(-15deg) brightness(.8)">🍓</span><div><b>Свежие ягоды</b><span>только в сезон</span></div></div>
+      <div class="card-float"><span class="berry-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9c-3.5 0-6.5 2.6-6.5 6 0 3.2 2.8 6 6.5 6s6.5-2.8 6.5-6c0-3.4-3-6-6.5-6Z"/><path d="M12 9c0-3 1.5-5.5 4.5-6.5 0 2.5-1 5-4.5 6.5ZM12 9c0-3-1.5-5.5-4.5-6.5 0 2.5 1 5 4.5 6.5Z"/><path d="M8 12.5c1.5-1.2 3-1.8 4-1.8"/></svg></span><div><b>Свежие ягоды</b><span>только в сезон</span></div></div>
       <div class="stamp">сделано с любовью</div>
     </div>
   </div>
@@ -61,10 +89,10 @@
 <section class="section trust" id="why">
   <div class="container">
     <div class="trust-grid">
-      <div class="trust-item reveal"><span class="trust-ico">🍰</span><h3>Авторские рецепты</h3><p>Уникальные торты от нашего кондитера — не масс-маркет, а вкус, который запоминается</p></div>
-      <div class="trust-item reveal reveal-delay-1"><span class="trust-ico">🌿</span><h3>Натуральные ингредиенты</h3><p>Сливочное масло, бельгийский шоколад, свежие ягоды — без заменителей и пальмы</p></div>
-      <div class="trust-item reveal reveal-delay-2"><span class="trust-ico">👩‍🍳</span><h3>Дегустация перед заказом</h3><p>Приходите в студию — пробуйте начинки и выбирайте идеальный вкус</p></div>
-      <div class="trust-item reveal reveal-delay-3"><span class="trust-ico">📦</span><h3>Аккуратная доставка</h3><p>Своя курьерская служба: торт доедет целым, красивым и точно в срок</p></div>
+      <div class="trust-item reveal"><span class="trust-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1"/><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z"/><path d="M6 2v3M10 2v3M14 2v3"/></svg></span><h3>Авторские рецепты</h3><p>Уникальные торты от нашего кондитера — не масс-маркет, а вкус, который запоминается</p></div>
+      <div class="trust-item reveal reveal-delay-1"><span class="trust-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22c-4.4 0-8-3.1-8-7 0-4.5 4-8.9 6.4-11 .3-.4.9-.4 1.2 0C13.9 6.1 18 10.5 18 15c0 3.9-3.6 7-6 7Z"/><path d="M9.5 14.5a2.5 2.5 0 0 0 3.4 2.3"/></svg></span><h3>Натуральные ингредиенты</h3><p>Сливочное масло, бельгийский шоколад, свежие ягоды — без заменителей и пальмы</p></div>
+      <div class="trust-item reveal reveal-delay-2"><span class="trust-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c3.9 0 7 2.7 7 6 0 4.7-4.3 7.7-6.7 9.2a.8.8 0 0 1-.6 0C9.3 16.7 5 13.7 5 9c0-3.3 3.1-6 7-6Z"/><path d="M10.5 8.5 13 11l3.5-3.5" transform="translate(-1 -0.5) scale(0.92)"/></svg></span><h3>Дегустация перед заказом</h3><p>Приходите в студию — пробуйте начинки и выбирайте идеальный вкус</p></div>
+      <div class="trust-item reveal reveal-delay-3"><span class="trust-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 7h11v10H2z"/><path d="M13 10h4l3 3v4h-7z"/><circle cx="6.5" cy="17.5" r="1.8"/><circle cx="17.5" cy="17.5" r="1.8"/></svg></span><h3>Аккуратная доставка</h3><p>Своя курьерская служба: торт доедет целым, красивым и точно в срок</p></div>
     </div>
   </div>
 </section>
@@ -275,7 +303,7 @@
       <label>Комментарий
         <textarea name="comment" rows="3" placeholder="Пожелания: вес, начинка, дизайн..."></textarea>
       </label>
-      <button type="submit" class="btn btn-block">🎂 Отправить заказ</button>
+      <button type="submit" class="btn btn-block">Отправить заказ</button>
       <p class="form-note">Нажимая кнопку, вы соглашаетесь на обработку персональных данных. Заявка уйдёт нам в WhatsApp — ответим быстро.</p>
     </form>
   </div>
@@ -287,16 +315,17 @@
       <span class="eyebrow">Контакты</span>
       <h2 class="section-title">Мы всегда на связи</h2>
       <p class="section-sub">Поможем с заказом в любое время — от идеи до готового десерта.</p>
-      <div class="contact-card"><div class="ic">📞</div><div><b>Телефон</b><a class="phone" href="tel:+79084600060">+7 908 460-00-60</a></div></div>
-      <div class="contact-card"><div class="ic">📍</div><div><b>Адрес</b><span>Владивосток, ЖК Горизонт, ул. Баляева, 49, первая башня</span></div></div>
-      <div class="contact-card"><div class="ic">⏰</div><div><b>Режим</b><span>По предварительному заказу — обсудим удобное время</span></div></div>
+      <div class="contact-card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.6 2Z"/></svg></div><div><b>Телефон</b><a class="phone" href="tel:+79084600060">+7 908 460-00-60</a></div></div>
+      <div class="contact-card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></div><div><b>Адрес</b><span>Владивосток, ЖК Горизонт, ул. Баляева, 49, первая башня</span></div></div>
+      <div class="contact-card"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><div><b>Режим</b><span>По предварительному заказу — обсудим удобное время</span></div></div>
       <div class="contact-chat">
-        <a class="chat-btn chat-wa" href="https://wa.me/79084600060" target="_blank" rel="noopener">💬 WhatsApp</a>
-        <a class="chat-btn chat-tg" href="https://t.me/dacake_vl" target="_blank" rel="noopener">✈️ Telegram</a>
+        <a class="chat-btn chat-wa" href="https://wa.me/79084600060" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1a16 16 0 0 1-1.6-.6c-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.8-.9c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.6-.1 1.2Z"/></svg>WhatsApp</a>
+        <a class="chat-btn chat-tg" href="https://t.me/dacake_vl" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21.9 4.6 18.8 19c-.2 1-.8 1.2-1.7.8l-4.6-3.4-2.2 2.1c-.2.2-.5.5-.9.5l.3-4.6L18.3 6c.4-.3-.1-.5-.6-.2L7.2 12.5l-4.5-1.4c-1-.3-1-1 .2-1.4L20.7 3.2c.8-.3 1.5.2 1.2 1.4Z"/></svg>Telegram</a>
       </div>
     </div>
     <div class="map-frame reveal reveal-delay-1">
-      <div>📍 Владивосток,<br>ул. Баляева, 49<br><br><a href="https://yandex.ru/maps/?text=Владивосток, Баляева 49" target="_blank" rel="noopener" style="color:var(--gold);font-weight:700">Открыть в картах →</a></div>
+      <iframe src="https://yandex.ru/map-widget/v1/?text=Владивосток%2C%20улица%20Баляева%2049&z=16" width="100%" height="100%" style="border:0;min-height:320px" loading="lazy" allowfullscreen title="Da, Cake! на карте — Владивосток, Баляева 49"></iframe>
+      <a class="map-open" href="https://yandex.ru/maps/?text=Владивосток, Баляева 49" target="_blank" rel="noopener">Открыть в Яндекс Картах →</a>
     </div>
   </div>
 </section>
@@ -343,11 +372,16 @@
   </div>
 </footer>
 
-<a href="https://wa.me/79084600060" class="wa-float" target="_blank" rel="noopener" aria-label="Написать в WhatsApp">💬</a>
+<a href="https://wa.me/79084600060" class="wa-float" target="_blank" rel="noopener" aria-label="Написать в WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1a16 16 0 0 1-1.6-.6c-2.9-1.2-4.7-4.1-4.9-4.3-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.4l.9 2.1c.1.2.1.4 0 .6l-.4.6-.5.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.6-.1l.8-.9c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.5.3.1.2.1.6-.1 1.2Z"/></svg></a>
 
-<div class="lightbox" id="lightbox">
-  <button class="lb-close" onclick="document.getElementById('lightbox').classList.remove('open')">&times;</button>
-  <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Фото работ" id="lb-img">
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фото работ">
+  <button class="lb-close" aria-label="Закрыть">&times;</button>
+  <button class="lb-nav lb-prev" aria-label="Предыдущее фото">&#10094;</button>
+  <button class="lb-nav lb-next" aria-label="Следующее фото">&#10095;</button>
+  <div class="lb-stage">
+    <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="Фото работ" id="lb-img">
+  </div>
+  <div class="lb-caption" id="lb-caption"></div>
 </div>
 
 <script>
@@ -360,23 +394,41 @@ document.addEventListener("DOMContentLoaded", function() {
   const burger = document.getElementById('nav-burger');
   const links = document.getElementById('nav-links');
   burger.addEventListener('click', () => {
-    burger.classList.toggle('active');
-    links.classList.toggle('open');
+    const open = links.classList.toggle('open');
+    burger.classList.toggle('active', open);
+    burger.setAttribute('aria-expanded', String(open));
+    burger.setAttribute('aria-label', open ? 'Закрыть меню' : 'Открыть меню');
   });
   links.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
-    burger.classList.remove('active'); links.classList.remove('open');
+    links.classList.remove('open'); burger.classList.remove('active');
+    burger.setAttribute('aria-expanded', 'false');
+    burger.setAttribute('aria-label', 'Открыть меню');
   }));
 
   const tabs = document.querySelectorAll('#tabs .tab');
   const cards = document.querySelectorAll('.cat-card');
-  tabs.forEach(tab => tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    tab.classList.add('active');
-    const f = tab.dataset.f;
+  function applyFilter(f) {
     cards.forEach(c => {
-      c.style.display = (f === 'all' || c.dataset.cat.includes(f)) ? '' : 'none';
+      const show = f === 'all' || c.dataset.cat.includes(f);
+      c.style.display = show ? '' : 'none';
+      if (show) c.classList.add('revealed');
     });
+  }
+  tabs.forEach(tab => tab.addEventListener('click', () => {
+    tabs.forEach(t => { t.classList.remove('active'); t.setAttribute('aria-selected','false'); });
+    tab.classList.add('active'); tab.setAttribute('aria-selected','true');
+    applyFilter(tab.dataset.f);
   }));
+  tabs.forEach(tab => tab.addEventListener('keydown', e => {
+    if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+    const arr = Array.from(tabs); const i = arr.indexOf(tab);
+    const n = e.key === 'ArrowRight' ? (i+1) % arr.length : (i-1+arr.length) % arr.length;
+    arr[n].focus(); arr[n].click();
+  }));
+  const tabsWrap = document.getElementById('tabs');
+  if (tabsWrap) tabsWrap.setAttribute('role','tablist');
+  tabs.forEach(t => t.setAttribute('role','tab'));
+  tabs.forEach(t => t.setAttribute('aria-selected', t.classList.contains('active') ? 'true' : 'false'));
 
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); io.unobserve(e.target); } });
@@ -385,20 +437,80 @@ document.addEventListener("DOMContentLoaded", function() {
 
   const lb = document.getElementById('lightbox');
   const lbImg = document.getElementById('lb-img');
-  const gal = document.querySelectorAll('.cat-card .img-wrap img');
-  const galSrcs = Array.from(gal).map(i => i.src);
-  gal.forEach((img, i) => img.addEventListener('click', () => {
-    lbImg.src = galSrcs[i]; lb.classList.add('open');
+  const lbCap = document.getElementById('lb-caption');
+  const galImgs = Array.from(document.querySelectorAll('.cat-card .img-wrap img'));
+  const lbItems = galImgs.map(img => ({ src: img.src, alt: img.alt, card: img.closest('.cat-card') }));
+  let lbIndex = 0;
+  function lbTitle(i) {
+    const t = lbItems[i] && lbItems[i].card ? lbItems[i].card.querySelector('h3') : null;
+    const p = lbItems[i] && lbItems[i].card ? lbItems[i].card.querySelector('.price') : null;
+    return (t ? t.textContent : '') + (p ? ' · ' + p.textContent : '');
+  }
+  function lbShow(i) {
+    lbIndex = (i + lbItems.length) % lbItems.length;
+    lbImg.src = lbItems[lbIndex].src;
+    lbImg.alt = lbItems[lbIndex].alt || 'Фото работ';
+    lbCap.textContent = lbTitle(lbIndex);
+  }
+  function lbOpen(i) {
+    if (!lbItems.length) return;
+    lbShow(i); lb.classList.add('open');
+    lbImg.parentElement.focus && lbImg.parentElement.focus();
+    lbImg.parentElement.setAttribute('tabindex','-1');
+    lbImg.parentElement.focus();
+  }
+  function lbClose() {
+    lb.classList.remove('open');
+    if (galImgs[lbIndex]) galImgs[lbIndex].focus();
+  }
+  galImgs.forEach((img, i) => img.addEventListener('click', () => {
+    lbOpen(i);
   }));
-  lb.addEventListener('click', e => { if (e.target === lb) lb.classList.remove('open'); });
+  galImgs.forEach(img => {
+    img.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); lbOpen(galImgs.indexOf(img)); }
+    });
+  });
+  lb.addEventListener('click', e => { if (e.target === lb || e.target.classList.contains('lb-stage')) lbClose(); });
+  lb.querySelector('.lb-close').addEventListener('click', lbClose);
+  lb.querySelector('.lb-prev').addEventListener('click', () => lbShow(lbIndex - 1));
+  lb.querySelector('.lb-next').addEventListener('click', () => lbShow(lbIndex + 1));
+  document.addEventListener('keydown', e => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') { lbClose(); return; }
+    if (e.key === 'ArrowLeft') lbShow(lbIndex - 1);
+    if (e.key === 'ArrowRight') lbShow(lbIndex + 1);
+  });
 
   const orderForm = document.getElementById('order-form');
   if (orderForm) {
+    const nameF = orderForm.querySelector('input[name="name"]');
+    const phoneF = orderForm.querySelector('input[name="phone"]');
+    function setErr(el, msg) {
+      const wrap = el.closest('label');
+      if (!wrap) return;
+      if (msg) {
+        let err = wrap.querySelector('.field-err');
+        if (!err) { err = document.createElement('span'); err.className = 'field-err'; err.setAttribute('role','alert'); wrap.appendChild(err); }
+        err.textContent = msg; wrap.classList.add('has-err'); el.setAttribute('aria-invalid','true');
+      } else {
+        const err = wrap.querySelector('.field-err');
+        if (err) err.remove();
+        wrap.classList.remove('has-err'); el.removeAttribute('aria-invalid');
+      }
+    }
+    const phoneRe = /^[+\d][\d\s\-()]{9,17}$/;
+    if (nameF) nameF.addEventListener('input', () => setErr(nameF, nameF.value.trim() ? '' : 'Укажите имя'));
+    if (phoneF) phoneF.addEventListener('input', () => setErr(phoneF, phoneRe.test(phoneF.value.trim()) ? '' : 'Укажите телефон полностью'));
     orderForm.addEventListener('submit', function(e) {
       e.preventDefault();
-      const name = this.name.value.trim();
-      const phone = this.phone.value.trim();
-      if (!name || !phone) { alert('Пожалуйста, укажите имя и телефон'); return; }
+      const name = nameF.value.trim();
+      const phone = phoneF.value.trim();
+      const okName = !!name;
+      const okPhone = phoneRe.test(phone);
+      setErr(nameF, okName ? '' : 'Укажите имя');
+      setErr(phoneF, okPhone ? '' : 'Укажите телефон полностью');
+      if (!okName || !okPhone) return;
       const cat = this.category.value || 'Не выбрано';
       const date = this.date.value || 'Не указана';
       const comment = this.comment.value.trim() || '—';
@@ -408,7 +520,7 @@ document.addEventListener("DOMContentLoaded", function() {
       const btn = this.querySelector('button[type=submit]');
       btn.textContent = '✅ Заявка открыта в WhatsApp';
       btn.classList.add('btn-success');
-      setTimeout(() => { btn.textContent = '🎂 Отправить заказ'; btn.classList.remove('btn-success'); }, 4000);
+      setTimeout(() => { btn.textContent = 'Отправить заказ'; btn.classList.remove('btn-success'); }, 4000);
     });
   }
 
